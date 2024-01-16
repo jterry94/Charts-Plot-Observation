@@ -15,7 +15,17 @@ import Observation
     var plotDataModel: PlotDataClass? = nil
     var theText = ""
     
-
+    
+    /// Set the Plot Parameters
+    /// - Parameters:
+    ///   - color: Color of the Plotted Data
+    ///   - xLabel: x Axis Label
+    ///   - yLabel: y Axis Label
+    ///   - title: Title of the Plot
+    ///   - xMin: Minimum value of x Axis
+    ///   - xMax: Maximum value of x Axis
+    ///   - yMin: Minimum value of y Axis
+    ///   - yMax: Maximum value of y Axis
     @MainActor func setThePlotParameters(color: String, xLabel: String, yLabel: String, title: String, xMin: Double, xMax: Double, yMin:Double, yMax:Double) {
         //set the Plot Parameters
         plotDataModel!.changingPlotParameters.yMax = yMax
@@ -37,6 +47,8 @@ import Observation
         plotDataModel!.zeroData()
     }
     
+    /// This appends data to be plotted to the plot array
+    /// - Parameter plotData: Array of (x, y) points to be added to the plot
     @MainActor func appendDataToPlot(plotData: [(x: Double, y: Double)]) {
         plotDataModel!.appendData(dataPoint: plotData)
     }
@@ -109,6 +121,7 @@ import Observation
     }
     
     
+    /// Resets the Calculated Text to ""
         @MainActor func resetCalculatedTextOnMainThread() {
             //Print Header
             plotDataModel!.calculatedText = ""
@@ -116,6 +129,8 @@ import Observation
         }
     
     
+    /// Adds the passed text to the display in the main window
+    /// - Parameter theText: Text Passed To Add To Display
         @MainActor func updateCalculatedTextOnMainThread(theText: String) {
             //Print Header
             plotDataModel!.calculatedText += theText

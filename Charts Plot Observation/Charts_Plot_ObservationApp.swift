@@ -6,12 +6,30 @@
 //
 
 import SwiftUI
+import Observation
 
 @main
 struct Charts_Plot_ObservationApp: App {
+    
+    @State var plotData = PlotClass()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .environment(plotData)
+                    .tabItem {
+                        Text("Plot")
+                    }
+                TextView()
+                    .environment(plotData)
+                    .tabItem {
+                        Text("Text")
+                    }
+                            
+                            
+            }
+            
         }
     }
 }

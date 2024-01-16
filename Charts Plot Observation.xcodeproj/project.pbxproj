@@ -14,6 +14,30 @@
 		A54A852C2B55F499002809F4 /* Charts_Plot_ObservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A852B2B55F499002809F4 /* Charts_Plot_ObservationTests.swift */; };
 		A54A85362B55F499002809F4 /* Charts_Plot_ObservationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85352B55F499002809F4 /* Charts_Plot_ObservationUITests.swift */; };
 		A54A85382B55F499002809F4 /* Charts_Plot_ObservationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85372B55F499002809F4 /* Charts_Plot_ObservationUITestsLaunchTests.swift */; };
+		A54A854C2B55F585002809F4 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85442B55F585002809F4 /* PlotClass.swift */; };
+		A54A854D2B55F585002809F4 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85442B55F585002809F4 /* PlotClass.swift */; };
+		A54A854E2B55F585002809F4 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85442B55F585002809F4 /* PlotClass.swift */; };
+		A54A854F2B55F585002809F4 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85452B55F585002809F4 /* TextExportDocument.swift */; };
+		A54A85502B55F585002809F4 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85452B55F585002809F4 /* TextExportDocument.swift */; };
+		A54A85512B55F585002809F4 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85452B55F585002809F4 /* TextExportDocument.swift */; };
+		A54A85522B55F585002809F4 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85462B55F585002809F4 /* TextView.swift */; };
+		A54A85532B55F585002809F4 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85462B55F585002809F4 /* TextView.swift */; };
+		A54A85542B55F585002809F4 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85462B55F585002809F4 /* TextView.swift */; };
+		A54A85552B55F585002809F4 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85472B55F585002809F4 /* CalculatePlotData.swift */; };
+		A54A85562B55F585002809F4 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85472B55F585002809F4 /* CalculatePlotData.swift */; };
+		A54A85572B55F585002809F4 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85472B55F585002809F4 /* CalculatePlotData.swift */; };
+		A54A85582B55F585002809F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85482B55F585002809F4 /* Operators.swift */; };
+		A54A85592B55F585002809F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85482B55F585002809F4 /* Operators.swift */; };
+		A54A855A2B55F585002809F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85482B55F585002809F4 /* Operators.swift */; };
+		A54A855B2B55F585002809F4 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85492B55F585002809F4 /* ChangingPlotParameters.swift */; };
+		A54A855C2B55F585002809F4 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85492B55F585002809F4 /* ChangingPlotParameters.swift */; };
+		A54A855D2B55F585002809F4 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85492B55F585002809F4 /* ChangingPlotParameters.swift */; };
+		A54A855E2B55F585002809F4 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A854A2B55F585002809F4 /* PlotDataClass.swift */; };
+		A54A855F2B55F585002809F4 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A854A2B55F585002809F4 /* PlotDataClass.swift */; };
+		A54A85602B55F585002809F4 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A854A2B55F585002809F4 /* PlotDataClass.swift */; };
+		A54A85612B55F585002809F4 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A854B2B55F585002809F4 /* PlotDataStruct.swift */; };
+		A54A85622B55F585002809F4 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A854B2B55F585002809F4 /* PlotDataStruct.swift */; };
+		A54A85632B55F585002809F4 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A854B2B55F585002809F4 /* PlotDataStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +69,14 @@
 		A54A85312B55F499002809F4 /* Charts Plot ObservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charts Plot ObservationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54A85352B55F499002809F4 /* Charts_Plot_ObservationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_Plot_ObservationUITests.swift; sourceTree = "<group>"; };
 		A54A85372B55F499002809F4 /* Charts_Plot_ObservationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_Plot_ObservationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A54A85442B55F585002809F4 /* PlotClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotClass.swift; sourceTree = "<group>"; };
+		A54A85452B55F585002809F4 /* TextExportDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextExportDocument.swift; sourceTree = "<group>"; };
+		A54A85462B55F585002809F4 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		A54A85472B55F585002809F4 /* CalculatePlotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		A54A85482B55F585002809F4 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		A54A85492B55F585002809F4 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		A54A854A2B55F585002809F4 /* PlotDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		A54A854B2B55F585002809F4 /* PlotDataStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +128,14 @@
 			isa = PBXGroup;
 			children = (
 				A54A85192B55F497002809F4 /* Charts_Plot_ObservationApp.swift */,
+				A54A85472B55F585002809F4 /* CalculatePlotData.swift */,
+				A54A85492B55F585002809F4 /* ChangingPlotParameters.swift */,
+				A54A85482B55F585002809F4 /* Operators.swift */,
+				A54A85442B55F585002809F4 /* PlotClass.swift */,
+				A54A854A2B55F585002809F4 /* PlotDataClass.swift */,
+				A54A854B2B55F585002809F4 /* PlotDataStruct.swift */,
+				A54A85452B55F585002809F4 /* TextExportDocument.swift */,
+				A54A85462B55F585002809F4 /* TextView.swift */,
 				A54A851B2B55F497002809F4 /* ContentView.swift */,
 				A54A851D2B55F499002809F4 /* Assets.xcassets */,
 				A54A851F2B55F499002809F4 /* Charts_Plot_Observation.entitlements */,
@@ -260,7 +300,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54A851C2B55F497002809F4 /* ContentView.swift in Sources */,
+				A54A855B2B55F585002809F4 /* ChangingPlotParameters.swift in Sources */,
+				A54A85552B55F585002809F4 /* CalculatePlotData.swift in Sources */,
+				A54A85612B55F585002809F4 /* PlotDataStruct.swift in Sources */,
+				A54A85582B55F585002809F4 /* Operators.swift in Sources */,
+				A54A855E2B55F585002809F4 /* PlotDataClass.swift in Sources */,
+				A54A854F2B55F585002809F4 /* TextExportDocument.swift in Sources */,
 				A54A851A2B55F497002809F4 /* Charts_Plot_ObservationApp.swift in Sources */,
+				A54A854C2B55F585002809F4 /* PlotClass.swift in Sources */,
+				A54A85522B55F585002809F4 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54A85502B55F585002809F4 /* TextExportDocument.swift in Sources */,
+				A54A85532B55F585002809F4 /* TextView.swift in Sources */,
 				A54A852C2B55F499002809F4 /* Charts_Plot_ObservationTests.swift in Sources */,
+				A54A85622B55F585002809F4 /* PlotDataStruct.swift in Sources */,
+				A54A85562B55F585002809F4 /* CalculatePlotData.swift in Sources */,
+				A54A854D2B55F585002809F4 /* PlotClass.swift in Sources */,
+				A54A855F2B55F585002809F4 /* PlotDataClass.swift in Sources */,
+				A54A855C2B55F585002809F4 /* ChangingPlotParameters.swift in Sources */,
+				A54A85592B55F585002809F4 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +333,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54A85362B55F499002809F4 /* Charts_Plot_ObservationUITests.swift in Sources */,
+				A54A855D2B55F585002809F4 /* ChangingPlotParameters.swift in Sources */,
+				A54A85572B55F585002809F4 /* CalculatePlotData.swift in Sources */,
+				A54A85632B55F585002809F4 /* PlotDataStruct.swift in Sources */,
+				A54A855A2B55F585002809F4 /* Operators.swift in Sources */,
+				A54A85602B55F585002809F4 /* PlotDataClass.swift in Sources */,
+				A54A85512B55F585002809F4 /* TextExportDocument.swift in Sources */,
 				A54A85382B55F499002809F4 /* Charts_Plot_ObservationUITestsLaunchTests.swift in Sources */,
+				A54A854E2B55F585002809F4 /* PlotClass.swift in Sources */,
+				A54A85542B55F585002809F4 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
